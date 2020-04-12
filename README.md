@@ -3,6 +3,7 @@ Simple IP block scripts in Bash for FreeBSD running pf firewall.  Script will re
 
 # Given:
 These scripts were tested on a host running FreeBSD 12.1.
+Bash has been installed.
 The firewall selected was pf.
 pf.conf holds a rule to read a text file and add its contents to a pf table for blocking:
 
