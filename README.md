@@ -2,7 +2,7 @@
 Simple IP block scripts in Bash for FreeBSD running pf firewall.  Script will read logs and add them to a file for use with a pf table. 
 
 ## Situation
-sshd is enabled.  `mail`, log entries, and HIDS show that ssh login is repeatedly subject to brute force attack.  
+sshd is enabled.  `mail`, log entries, and HIDS show that ssh login is repeatedly subjected to brute force attack.  
 
 ## Given:
 These scripts were tested on a host running FreeBSD 12.1.
