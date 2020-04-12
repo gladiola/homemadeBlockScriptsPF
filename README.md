@@ -25,4 +25,6 @@ The scripts will make files that retain their work, if relevant, in subdirectori
 
 It can be useful to run the scripts with a cronjob.
 
-It should be noted that FreeBSD also comes with its own `blacklistd` that works well for temporarily blocking infringing IPs.  Details are available, pre-installed, on FreeBSD 12.1 or later with `man blacklistd`.  Running these scripts, instead of more sophisticated services like `blacklistd` or and IPS, can result in higher process overhead.  Over time, the table will get longer and longer, reducing performance.  Yet, given maintenance and manual reviews, these kinds of scripts can offer basic protection until more sophisticated systems can be installed and tuned.
+It should be noted that FreeBSD also comes with its own `blacklistd` that works well for temporarily blocking infringing IPs.  Details are available, pre-installed, on FreeBSD 12.1 or later with `man blacklistd`.  
+
+Running these scripts, instead of more sophisticated services like `blacklistd` or and IPS, can result in higher overhead.  Over time, the table will get longer and longer, reducing performance.  Yet, given maintenance and manual reviews, these kinds of scripts can offer basic protection until more sophisticated systems can be installed and tuned.  They will take advantage of existing warnings and provide some minimal protection.  These particular scripts focus on blocks related to ssh.
