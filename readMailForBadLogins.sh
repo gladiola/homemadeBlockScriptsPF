@@ -1,7 +1,5 @@
 #!/bin/sh
 
-echo "readMailForBadLogins.sh"
-
 ## This script will read the mail of the root account to look for IPs associated
 ## with bad logins.  Those IPs will be held in a working file for appending to
 ## pf bruteforcers.
