@@ -31,7 +31,7 @@ for ip in `cat ${DIRNAME}/ip.txt`; do
 done
 
 ## III.  Automatically reload the BLOCKFILE text file into the pf table
-echo $SCORE
+
 if [ $((SCORE)) -gt 0 ]; then
         pfctl -t arbitraryblocks -T replace -f $BLOCKFILE
 fi
