@@ -4,7 +4,7 @@ Simple IP block scripts in Bash for FreeBSD running pf firewall.  Script will re
 ## Situation
 sshd is enabled.  `mail`, log entries, and HIDS show that ssh login is repeatedly subjected to brute force attack.  We need to respond to those alerts automatically with a primitive script to block the IP.
 
-## Given:
+## Given
 These scripts were tested on a host running FreeBSD 12.1.
 Bash has been installed.
 The firewall selected was pf.
