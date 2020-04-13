@@ -25,6 +25,9 @@ The scripts will make files that retain their work, if relevant, in subdirectori
 
 It can be useful to run the scripts with a cronjob.
 
+## Hazards
+These scripts are primitive and limited in their decision making.  They are less than 50 lines long.  There is a grep statement to remove an IP from the list of potential offenders.  It is a `grep -v www.xxx.yyy.zzz`.  It can be used to protect your favorite IP by dropping it from the findings.  Read the scripts carefully.  
+
 ## With Ever-Growing Respect and Arbitrary Block Tables
 It should be noted that FreeBSD also comes with its own `blacklistd` that works well for temporarily blocking infringing IPs.  Details are available, pre-installed, on FreeBSD 12.1 or later with `man blacklistd`.  
 
