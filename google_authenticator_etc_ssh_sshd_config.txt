@@ -1,0 +1,9 @@
+# Google Authenticator Values
+AuthorizedKeysFile	.ssh/authorized_keys
+PasswordAuthentication yes
+PermitEmptyPasswords no
+ChallengeResponseAuthentication yes
+UsePAM yes
+Subsystem	sftp	/usr/libexec/sftp-server
+AuthenticationMethods publickey,keyboard-interactive:pam
+UseBlacklist yes
